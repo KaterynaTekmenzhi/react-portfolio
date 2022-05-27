@@ -1,3 +1,25 @@
-.app {
-    height: 100vh;
+.app{
+    height:100%;
+    min-width: 100%;
+    margin: auto;
+
+    .sections{
+        min-width: 100%;
+        height: calc(100vh - 36px);
+        background-color: #f3ece695;
+        position:relative;
+        top: 36px;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        > *{
+            min-width: 100%;
+            height: calc(100vh - 36px);
+            scroll-snap-align: start;
+        }
+    }
 }

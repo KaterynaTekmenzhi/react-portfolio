@@ -1,9 +1,10 @@
 import "./intro.scss";
+import React from "react";
 
 export default function Intro() {
     return (
-        <div className="intro">
-            hgx
+        <div className="intro" id="intro">
+        
         </div>
 
     )

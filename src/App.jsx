@@ -1,4 +1,5 @@
-import Topbar from "./components/topbar/Topbar";
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
@@ -8,7 +9,7 @@ import "./css/app.scss";
 function App() {
   return (
     <div className="app">
-      <Topbar/>
+      <Navbar/>
       <div className="sections">
         <Intro/>
         <Portfolio/>
